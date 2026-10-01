@@ -1,0 +1,224 @@
+@import "tailwindcss";
+
+:root {
+  --cream: #fdf6ec;
+  --cream-deep: #f7ecd9;
+  --ink: #3b3129;
+  --ink-soft: #6f5f52;
+  --tomato: #c93a2c;
+  --tomato-deep: #a92c20;
+  --caramel: #b07a35;
+  --caramel-soft: #f3e3c8;
+  --leaf: #4f7a3a;
+  --card: #fffdf8;
+  --line: #ead9bd;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--cream);
+  color: var(--ink);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  line-height: 1.75;
+}
+
+.font-display {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  letter-spacing: -0.01em;
+}
+
+.masthead-rule {
+  border-top: 3px double var(--tomato);
+}
+
+.mag-card {
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: 1.25rem;
+  box-shadow: 0 10px 28px -18px rgba(120, 72, 20, 0.45);
+}
+
+.mag-card-hover:hover {
+  box-shadow: 0 18px 36px -20px rgba(169, 44, 32, 0.4);
+  transform: translateY(-2px);
+  transition: all 0.2s ease;
+}
+
+.tag-chip {
+  display: inline-block;
+  background: var(--caramel-soft);
+  color: #7c5417;
+  border: 1px solid #e3c98f;
+  border-radius: 999px;
+  padding: 0.15rem 0.8rem;
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+.btn-tomato {
+  display: inline-block;
+  background: var(--tomato);
+  color: #fff;
+  border-radius: 999px;
+  padding: 0.7rem 1.6rem;
+  font-weight: 700;
+}
+
+.btn-tomato:hover {
+  background: var(--tomato-deep);
+}
+
+.btn-outline {
+  display: inline-block;
+  border: 2px solid var(--tomato);
+  color: var(--tomato);
+  border-radius: 999px;
+  padding: 0.6rem 1.5rem;
+  font-weight: 700;
+  background: #fff;
+}
+
+.btn-outline:hover {
+  background: var(--tomato);
+  color: #fff;
+}
+
+.recipe-table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  font-size: 0.95rem;
+  background: #fff;
+  border: 1px solid var(--line);
+  border-radius: 1rem;
+  overflow: hidden;
+}
+
+.recipe-table th {
+  background: #f6e7cd;
+  color: #6b4a12;
+  text-align: left;
+  padding: 0.7rem 0.9rem;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
+.recipe-table td {
+  padding: 0.7rem 0.9rem;
+  border-top: 1px solid #f0e2c6;
+  vertical-align: top;
+}
+
+.recipe-table tr:nth-child(even) td {
+  background: #fffaf0;
+}
+
+.step-list {
+  counter-reset: step;
+  list-style: none;
+  padding: 0;
+}
+
+.step-list > li {
+  counter-increment: step;
+  position: relative;
+  background: #fff;
+  border: 1px solid var(--line);
+  border-radius: 1rem;
+  padding: 1rem 1.1rem 1rem 3.6rem;
+  margin-bottom: 0.8rem;
+}
+
+.step-list > li::before {
+  content: counter(step);
+  position: absolute;
+  left: 1rem;
+  top: 1rem;
+  width: 1.9rem;
+  height: 1.9rem;
+  border-radius: 999px;
+  background: var(--tomato);
+  color: #fff;
+  font-weight: 800;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.95rem;
+}
+
+.faq-box {
+  background: #fff;
+  border: 1px solid var(--line);
+  border-radius: 1rem;
+  padding: 1.1rem 1.25rem;
+  margin-bottom: 0.9rem;
+}
+
+.faq-box h3 {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1.1rem;
+  color: var(--tomato-deep);
+  margin-bottom: 0.4rem;
+}
+
+.callout {
+  background: #fdf0d8;
+  border-left: 5px solid var(--caramel);
+  border-radius: 0 1rem 1rem 0;
+  padding: 1rem 1.25rem;
+}
+
+.safety-note {
+  background: #fdeceb;
+  border: 1px solid #f0b9b3;
+  border-radius: 1rem;
+  padding: 1rem 1.25rem;
+}
+
+.toc-link {
+  color: var(--tomato-deep);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.prose-food h2 {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1.65rem;
+  line-height: 1.3;
+  margin: 2.2rem 0 0.8rem;
+  color: #2f2620;
+}
+
+.prose-food h3 {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1.25rem;
+  margin: 1.6rem 0 0.6rem;
+}
+
+.prose-food p {
+  margin: 0.85rem 0;
+}
+
+.prose-food ul {
+  list-style: disc;
+  padding-left: 1.4rem;
+  margin: 0.7rem 0;
+}
+
+.prose-food ol {
+  list-style: decimal;
+  padding-left: 1.4rem;
+  margin: 0.7rem 0;
+}
+
+.prose-food a {
+  color: var(--tomato-deep);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
