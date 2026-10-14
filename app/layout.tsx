@@ -26,6 +26,9 @@ export const metadata: Metadata = {
     description:
       "Practical recipes, meal prep plans, kitchen guides and food safety tips for busy home cooks. Start cooking smarter today.",
   },
+  other: {
+    "google-adsense-account": "ca-pub-4906207495792820",
+  },
 };
 
 const NAV = [
@@ -122,7 +125,11 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             </div>
             <p className="mt-8 border-t border-white/20 pt-4 text-white/70">
               © 2026 LoanPay Kitchen · food.loanpaylogic.com · General education only — see our{" "}
-              <Link className="underline" href="/disclaimer">disclaimer</Link>.
+              <Link className="underline" href="/disclaimer">disclaimer</Link>. Part of{" "}
+              <a className="underline" href="https://loanpaylogic.com">LoanPay Logic</a> ·{" "}
+              <a className="underline" href="https://home.loanpaylogic.com">Home DIY</a> ·{" "}
+              <a className="underline" href="https://pets.loanpaylogic.com">Pets</a> ·{" "}
+              <a className="underline" href="https://save.loanpaylogic.com">Budgeting</a>.
             </p>
           </div>
         </footer>
