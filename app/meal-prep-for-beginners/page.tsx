@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { ArticleShell, FaqList } from "../lib/article";
 import { faqJsonLd, articleJsonLd } from "../lib/site";
+import { GuideSchema } from "../components/schema";
 
 export const metadata: Metadata = {
   title: "Meal Prep for Beginners: Easy 2-Hour Sunday Plan",
@@ -236,6 +237,12 @@ export default function Page() {
       </p>
       <h2>Meal prep beginner FAQ</h2>
       <FaqList faqs={faqs} />
+      <GuideSchema
+        title="Meal Prep for Beginners: Easy 2-Hour Sunday Plan"
+        description="Meal prep for beginners made calm and simple: a 2-hour Sunday plan, grocery list, storage times and reheating tips. Start this weekend!"
+        slug="meal-prep-for-beginners"
+        faqs={faqs.map((f) => ({ question: f.q, answer: f.a }))}
+      />
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{

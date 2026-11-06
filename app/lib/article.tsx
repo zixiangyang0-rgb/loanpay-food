@@ -1,5 +1,6 @@
 import Link from "next/link";
 import type { Faq } from "./site";
+import { Byline } from "../components/schema";
 
 export function ArticleShell({
   kicker,
@@ -26,6 +27,7 @@ export function ArticleShell({
       <h1 className="font-display mt-3 text-4xl font-bold leading-tight md:text-5xl">{title}</h1>
       <p className="mt-4 text-lg" style={{ color: "#6f5f52" }}>{intro}</p>
       <p className="mt-3 text-sm font-semibold" style={{ color: "#b07a35" }}>{updated} · 12-minute read</p>
+      <Byline />
       <div className="prose-food mt-2">{children}</div>
       <div className="safety-note mt-8 text-sm">
         <strong>Good to know:</strong> This guide is general education, not medical or nutrition advice. If you manage
