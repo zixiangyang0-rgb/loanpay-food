@@ -45,6 +45,25 @@ export default function Contact() {
           whether chicken left out overnight is safe — please follow USDA guidance (when in doubt, throw it out) rather
           than waiting for our reply.
         </p>
+        <h2 className="font-display">Corrections, partnerships and response time</h2>
+        <p>
+          Spotted a stale price or typo? Send the page URL — corrections go straight to editors and are fixed
+          within days. For partnerships, write to partners@loanpaylogic.com; advertisers never approve guides.
+        </p>
+        <section aria-label="Editorial byline and sources" className="mag-card mt-6 p-6">
+          <h2 className="font-display text-xl font-bold">Who Reads Your Message and How We Keep Guides Accurate</h2>
+          <p className="mt-2">
+            Messages here are read by Maya Thornton, founding food editor; Priya Raman, kitchen science writer;
+            and Daniel Okafor, budget analyst — our three-person editorial team.
+          </p>
+          <p className="mt-2">
+            We check temperatures, storage times, and costs against USDA FoodSafety.gov, FoodData Central, and
+            extension sources, cross-checking key figures twice before publishing.
+          </p>
+          <p className="mt-2">
+            Last reviewed November 6, 2026. Include the page URL when you write so we can verify and update quickly.
+          </p>
+        </section>
         <p>
           Prefer browsing? Start from the <Link href="/">homepage hub</Link>, or read <Link href="/about">about our team</Link> and
           our <Link href="/privacy-policy">privacy policy</Link>.

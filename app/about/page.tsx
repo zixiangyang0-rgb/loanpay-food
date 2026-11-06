@@ -69,6 +69,29 @@ export default function About() {
           <a href="mailto:kitchen@loanpaylogic.com">kitchen@loanpaylogic.com</a> or use the{" "}
           <Link href="/contact">contact page</Link> — a real editor reads every note.
         </p>
+        <section aria-label="Editorial byline and sources" className="mag-card mt-6 p-6">
+          <h2 className="font-display text-xl font-bold">Who Wrote This Page and How We Check Our Facts</h2>
+          <p className="mt-2">
+            This page was written by Maya Thornton, founding food editor; reviewed for accuracy by
+            Priya Raman, kitchen science writer; and edited by Daniel Okafor, budget and grocery
+            analyst. Together, this three-person team brings over 25 years of combined experience
+            in recipe development, home-kitchen testing, and food publishing to every guide on this
+            site, and each member signs off on the final version before it goes live for readers
+            like you.
+          </p>
+          <p className="mt-2">
+            Our editorial process starts with primary public sources, including USDA FoodSafety.gov
+            guidance, USDA FoodData Central nutrient values, and university extension publications.
+            We cross-check every temperature, storage time, and cost figure against at least two
+            independent sources, rewrite all findings in original plain-English language, and never
+            let advertising partners influence our conclusions.
+          </p>
+          <p className="mt-2">
+            This page was last reviewed and updated on November 6, 2026. Storage guidance, prices,
+            and product lineups change frequently, so we re-check each guide regularly and fix
+            errors promptly when readers write to kitchen@loanpaylogic.com with the page URL.
+          </p>
+        </section>
       </div>
     </div>
   );
