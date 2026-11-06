@@ -58,6 +58,10 @@ export default function Page() {
         { href: "/one-pot-dinners", label: "One-Pot Dinners — from sear to simmer" },
       ]}
       sources="Manufacturer care guidance; USDA FoodSafety.gov cooking temperatures; USDA FoodData Central values."
+      official={[
+        { label: "FoodSafety.gov safe cooking temperatures", href: "https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures", note: "temps for skillet proteins" },
+        { label: "USDA FSIS kitchen thermometers", href: "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/kitchen-thermometers", note: "why thermometers beat color tests" },
+      ]}
     >
       <p>
         A cast iron skillet is the rare kitchen tool that improves with age and outlives its owner. Its superpower is

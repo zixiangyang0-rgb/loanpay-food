@@ -58,6 +58,10 @@ export default function Page() {
         { href: "/healthy-snacks-guide", label: "Healthy Snacks Guide — crispy snacks under 250 calories" },
       ]}
       sources="USDA FoodSafety.gov safe cooking temperatures; USDA FoodData Central values; manufacturer guidance aggregates."
+      official={[
+        { label: "FoodSafety.gov safe cooking temperatures", href: "https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures", note: "temps to verify with a thermometer" },
+        { label: "USDA FSIS safe food handling", href: "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation", note: "handling and preparation basics" },
+      ]}
     >
       <p>
         An air fryer is a small convection oven that blows very hot air very fast around food in a perforated basket,

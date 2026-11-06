@@ -58,6 +58,10 @@ export default function Page() {
         { href: "/cheap-healthy-meals", label: "Cheap Healthy Meals — rice dinners under $1" },
       ]}
       sources="USDA FoodData Central grain nutrient values; FoodSafety.gov cooked-rice guidance."
+      official={[
+        { label: "FoodSafety.gov keep food safe", href: "https://www.foodsafety.gov/keep-food-safe", note: "cooked-rice cooling rules" },
+        { label: "USDA FoodData Central", href: "https://fdc.nal.usda.gov", note: "grain nutrient values" },
+      ]}
     >
       <p>
         A rice cooker does one miraculous thing: it senses when water runs out and switches from cooking to warming

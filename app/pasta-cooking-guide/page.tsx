@@ -58,6 +58,10 @@ export default function Page() {
         { href: "/pantry-staples-list", label: "Pantry Staples List — the pasta shelf" },
       ]}
       sources="USDA FoodData Central pasta nutrient values; standard Italian technique references."
+      official={[
+        { label: "FoodSafety.gov keep food safe", href: "https://www.foodsafety.gov/keep-food-safe", note: "cooling and storing cooked pasta" },
+        { label: "USDA FoodData Central", href: "https://fdc.nal.usda.gov", note: "pasta nutrient values" },
+      ]}
     >
       <p>
         Pasta is the world&apos;s most democratic dinner — a pound feeds four for about a dollar — yet the gap between

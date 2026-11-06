@@ -58,6 +58,10 @@ export default function Page() {
         { href: "/budget-grocery-guide", label: "Budget Grocery Guide — snack for less" },
       ]}
       sources="USDA FoodData Central snack nutrient values; USDA Dietary Guidelines snack patterns."
+      official={[
+        { label: "FoodSafety.gov keep food safe", href: "https://www.foodsafety.gov/keep-food-safe", note: "safe handling for fresh snacks" },
+        { label: "USDA MyPlate", href: "https://www.myplate.gov", note: "snack patterns for balanced eating" },
+      ]}
     >
       <p>
         Healthy snacks fail in the gap between intention and 3 p.m. — when energy dips, the vending machine glows, and

@@ -2,6 +2,8 @@ import Link from "next/link";
 import type { Faq } from "./site";
 import { Byline } from "../components/schema";
 
+export type OfficialLink = { label: string; href: string; note: string };
+
 export function ArticleShell({
   kicker,
   title,
@@ -11,6 +13,7 @@ export function ArticleShell({
   related,
   sources,
   faqNote,
+  official,
 }: {
   kicker: string;
   title: string;
@@ -20,6 +23,7 @@ export function ArticleShell({
   related: { href: string; label: string }[];
   sources: string;
   faqNote?: string;
+  official?: OfficialLink[];
 }) {
   return (
     <div className="mx-auto max-w-3xl px-4 py-10">
@@ -49,6 +53,19 @@ export function ArticleShell({
           })}
         </ul>
       </nav>
+      {official && official.length > 0 ? (
+        <div className="mag-card mt-6 p-6 text-sm leading-relaxed">
+          <p className="font-semibold">Official resources</p>
+          <ul className="mt-2 flex flex-col gap-1.5">
+            {official.map((o) => (
+              <li key={o.href}>
+                <a className="toc-link font-semibold" href={o.href} target="_blank" rel="noopener noreferrer">{o.label}</a>
+                {o.note ? ` — ${o.note}` : null}
+              </li>
+            ))}
+          </ul>
+        </div>
+      ) : null}
       <p className="mt-6 text-xs" style={{ color: "#6f5f52" }}>Sources: {sources}</p>
     </div>
   );

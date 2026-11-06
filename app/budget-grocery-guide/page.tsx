@@ -58,6 +58,10 @@ export default function Page() {
         { href: "/recipe-cost-calculator", label: "Recipe Cost Calculator — price your plates" },
       ]}
       sources="USDA Thrifty and Low-Cost Food Plans; USDA seasonal produce references; FoodSafety.gov storage guidance."
+      official={[
+        { label: "FoodSafety.gov keep food safe", href: "https://www.foodsafety.gov/keep-food-safe", note: "the four steps to safe storage" },
+        { label: "USDA Thrifty Food Plan", href: "https://www.fns.usda.gov/cnpp/thrifty-food-plan", note: "the cost benchmarks behind the budgets" },
+      ]}
     >
       <p>
         Budget grocery shopping rewards systems, not suffering. The households spending $600 a month instead of $900

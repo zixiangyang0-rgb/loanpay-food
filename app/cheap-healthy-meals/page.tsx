@@ -58,6 +58,10 @@ export default function Page() {
         { href: "/leftover-safety-guide", label: "Leftover Safety Guide — stretch every pot safely" },
       ]}
       sources="USDA FoodData Central nutrient and price references; USDA Thrifty Food Plan; FoodSafety.gov storage guidance."
+      official={[
+        { label: "FoodSafety.gov keep food safe", href: "https://www.foodsafety.gov/keep-food-safe", note: "storage rules for cheap staples" },
+        { label: "USDA MyPlate healthy eating on a budget", href: "https://www.myplate.gov/eat-healthy/healthy-eating-budget", note: "budget-friendly balanced eating" },
+      ]}
     >
       <p>
         Cheap healthy meals fail for one predictable reason: people price the recipe but not the system. A $1.20 lentil

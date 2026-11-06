@@ -58,6 +58,10 @@ export default function Page() {
         { href: "/pantry-staples-list", label: "Pantry Staples List — stock the foundation" },
       ]}
       sources="USDA Thrifty Food Plan; FoodSafety.gov leftovers guidance; USDA FoodData Central values."
+      official={[
+        { label: "FoodSafety.gov keep food safe", href: "https://www.foodsafety.gov/keep-food-safe", note: "plan storage into the week" },
+        { label: "USDA MyPlate healthy eating on a budget", href: "https://www.myplate.gov/eat-healthy/healthy-eating-budget", note: "planning balanced weeks cheaply" },
+      ]}
     >
       <p>
         Weekly meal planning sounds like something organized people do, but it is really something tired people do so

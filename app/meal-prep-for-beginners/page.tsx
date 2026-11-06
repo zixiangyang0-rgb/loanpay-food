@@ -59,6 +59,10 @@ export default function Page() {
         { href: "/budget-grocery-guide", label: "Budget Grocery Guide — shop the plan for less" },
       ]}
       sources="USDA FoodSafety.gov safe cooking temperatures and leftovers guidance; USDA FoodData Central nutrient values."
+      official={[
+        { label: "FoodSafety.gov keep food safe", href: "https://www.foodsafety.gov/keep-food-safe", note: "the four steps behind every prep" },
+        { label: "USDA FoodData Central", href: "https://fdc.nal.usda.gov", note: "nutrient values for prep portions" },
+      ]}
     >
       <p>
         If you have ever opened the fridge at 6 p.m. and felt your energy drain out, this meal prep for beginners plan

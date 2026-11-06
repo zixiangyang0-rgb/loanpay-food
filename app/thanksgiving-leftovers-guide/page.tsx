@@ -58,6 +58,10 @@ export default function Page() {
         { href: "/one-pot-dinners", label: "One-Pot Dinners — soup pots for leftover turkey" },
       ]}
       sources="USDA FoodSafety.gov and FSIS leftovers, thawing and reheating guidance."
+      official={[
+        { label: "FoodSafety.gov safe cooking temperatures", href: "https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures", note: "turkey to 165°F" },
+        { label: "USDA FSIS turkey basics", href: "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/poultry/lets-talk-turkey-turkey-basics", note: "thawing, roasting and leftovers" },
+      ]}
     >
       <p>
         Thanksgiving dinner produces the most ambitious leftovers of the year: a whole turkey&apos;s worth of meat,

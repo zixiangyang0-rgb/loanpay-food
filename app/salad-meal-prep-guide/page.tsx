@@ -58,6 +58,10 @@ export default function Page() {
         { href: "/budget-grocery-guide", label: "Budget Grocery Guide — greens for less" },
       ]}
       sources="USDA FoodSafety.gov leftovers and produce guidance; USDA FoodData Central values."
+      official={[
+        { label: "FDA produce safety", href: "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely", note: "selecting and serving produce safely" },
+        { label: "USDA FoodData Central", href: "https://fdc.nal.usda.gov", note: "greens and topping nutrient values" },
+      ]}
     >
       <p>
         Soggy day-three salads have ended more meal-prep resolutions than any other disappointment, and the tragedy is

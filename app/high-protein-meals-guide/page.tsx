@@ -58,6 +58,10 @@ export default function Page() {
         { href: "/smoothie-basics-guide", label: "Smoothie Basics Guide — drinkable protein ratios" },
       ]}
       sources="USDA FoodData Central protein values; USDA Dietary Guidelines protein foods; FoodSafety.gov cooking temperatures."
+      official={[
+        { label: "FoodSafety.gov safe cooking temperatures", href: "https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures", note: "protein temps to hit" },
+        { label: "USDA FoodData Central", href: "https://fdc.nal.usda.gov", note: "protein values per serving" },
+      ]}
     >
       <p>
         High-protein meals have a reputation problem: people picture dry chicken, chalky shakes, and joyless math. The

@@ -58,6 +58,10 @@ export default function Page() {
         { href: "/cheap-healthy-meals", label: "Cheap Healthy Meals — cheap cuts shine here" },
       ]}
       sources="USDA FSIS slow-cooker food-safety guidance; USDA FoodData Central values."
+      official={[
+        { label: "FoodSafety.gov keep food safe", href: "https://www.foodsafety.gov/keep-food-safe", note: "danger-zone rules for low and slow" },
+        { label: "USDA FSIS slow cookers and food safety", href: "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/slow-cookers-and-food-safety", note: "slow-cooker temperature safety" },
+      ]}
     >
       <p>
         The slow cooker is patience as an appliance: a heavy crock wrapped in gentle heat that turns cheap tough cuts

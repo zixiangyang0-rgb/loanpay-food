@@ -58,6 +58,10 @@ export default function Page() {
         { href: "/cheap-healthy-meals", label: "Cheap Healthy Meals — pots under $2.50 a plate" },
       ]}
       sources="USDA FoodSafety.gov cooking temperatures and leftovers guidance; USDA FoodData Central values."
+      official={[
+        { label: "FoodSafety.gov safe cooking temperatures", href: "https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures", note: "one-pot protein temps" },
+        { label: "USDA FSIS safe food handling", href: "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation", note: "handling basics for pot meals" },
+      ]}
     >
       <p>
         One-pot dinners are weeknight mercy in edible form: a single heavy pot, a sequence of layers, and forty

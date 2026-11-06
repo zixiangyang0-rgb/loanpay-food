@@ -58,6 +58,10 @@ export default function Page() {
         { href: "/budget-grocery-guide", label: "Budget Grocery Guide — equip then shop smart" },
       ]}
       sources="Manufacturer care guidance; USDA FSIS thermometer guidance."
+      official={[
+        { label: "FoodSafety.gov safe cooking temperatures", href: "https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures", note: "temps your thermometer must verify" },
+        { label: "USDA FSIS kitchen thermometers", href: "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/kitchen-thermometers", note: "thermometer placement and calibration" },
+      ]}
     >
       <p>
         Kitchen tools multiply in drawers while cooking stays stuck on the same three pans — because most gadgets

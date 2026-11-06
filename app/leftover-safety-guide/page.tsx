@@ -58,6 +58,10 @@ export default function Page() {
         { href: "/one-pot-dinners", label: "One-Pot Dinners — pots that reheat well" },
       ]}
       sources="USDA FoodSafety.gov and FSIS leftovers, reheating and cold-storage guidance."
+      official={[
+        { label: "FoodSafety.gov cold food storage charts", href: "https://www.foodsafety.gov/food-safety-charts/cold-food-storage-charts", note: "the 3-to-4-day window" },
+        { label: "USDA FSIS leftovers and food safety", href: "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety", note: "reheating to 165°F" },
+      ]}
     >
       <p>
         Leftovers are either free lunch or food poisoning, and the difference is handling, not luck. Every rule below

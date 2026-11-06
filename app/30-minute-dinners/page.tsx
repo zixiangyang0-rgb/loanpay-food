@@ -58,6 +58,10 @@ export default function Page() {
         { href: "/pantry-staples-list", label: "Pantry Staples List — stock the fast shelf" },
       ]}
       sources="USDA FoodSafety.gov cooking temperatures; USDA FoodData Central values."
+      official={[
+        { label: "FoodSafety.gov safe cooking temperatures", href: "https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures", note: "minimum internal temps for every protein" },
+        { label: "USDA FoodData Central", href: "https://fdc.nal.usda.gov", note: "nutrient values behind the dinner math" },
+      ]}
     >
       <p>
         Most 30-minute dinners lie about the thirty minutes — they count simmering but not chopping, cooking but not

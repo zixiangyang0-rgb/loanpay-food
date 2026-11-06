@@ -58,6 +58,10 @@ export default function Page() {
         { href: "/food-storage-safety-guide", label: "Food Storage Safety Guide — egg storage times" },
       ]}
       sources="USDA FoodData Central egg nutrient values; USDA FSIS egg safety guidance."
+      official={[
+        { label: "FDA egg safety", href: "https://www.fda.gov/food/buy-store-serve-safe-food/what-you-need-know-about-egg-safety", note: "buying, storing and cooking eggs safely" },
+        { label: "USDA FSIS eggs and egg products", href: "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/eggs-and-egg-products", note: "egg handling and temperatures" },
+      ]}
     >
       <p>
         Eggs are the most forgiving protein in the store and the least forgiving in the pan — cheap enough to practice

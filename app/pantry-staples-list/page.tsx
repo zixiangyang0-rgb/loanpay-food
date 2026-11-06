@@ -58,6 +58,10 @@ export default function Page() {
         { href: "/food-storage-safety-guide", label: "Food Storage Safety Guide — store it right" },
       ]}
       sources="USDA FoodData Central values; USDA food storage references."
+      official={[
+        { label: "FoodSafety.gov keep food safe", href: "https://www.foodsafety.gov/keep-food-safe", note: "shelf-stable storage rules" },
+        { label: "USDA FoodData Central", href: "https://fdc.nal.usda.gov", note: "staple nutrient values" },
+      ]}
     >
       <p>
         A stocked pantry changes the meaning of &ldquo;we have nothing to eat&rdquo; from crisis to puzzle — rice plus

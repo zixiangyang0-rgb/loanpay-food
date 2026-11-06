@@ -58,6 +58,10 @@ export default function Page() {
         { href: "/recipe-cost-calculator", label: "Recipe Cost Calculator — price your loaves" },
       ]}
       sources="USDA FoodData Central flour values; university extension fermentation guidance."
+      official={[
+        { label: "FDA safe food handling", href: "https://www.fda.gov/food/buy-store-serve-safe-food", note: "fermentation-adjacent food safety" },
+        { label: "USDA FoodData Central", href: "https://fdc.nal.usda.gov", note: "flour nutrient values" },
+      ]}
     >
       <p>
         A sourdough starter is a tiny managed ecosystem — wild yeasts and friendly bacteria living in flour and water,

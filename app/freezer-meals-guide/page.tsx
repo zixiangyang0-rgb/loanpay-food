@@ -58,6 +58,10 @@ export default function Page() {
         { href: "/one-pot-dinners", label: "One-Pot Dinners — pots that freeze well" },
       ]}
       sources="USDA FoodSafety.gov freezing, thawing and leftovers guidance; USDA cold-storage charts."
+      official={[
+        { label: "FoodSafety.gov food safety charts", href: "https://www.foodsafety.gov/food-safety-charts", note: "freezing and storage guidance" },
+        { label: "USDA FSIS freezing and food safety", href: "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/freezing-and-food-safety", note: "freezing rules that keep quality" },
+      ]}
     >
       <p>
         The freezer is a time machine, and freezer meals are how you program it. An hour of assembly on a quiet Sunday

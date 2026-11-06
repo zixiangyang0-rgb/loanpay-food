@@ -58,6 +58,10 @@ export default function Page() {
         { href: "/food-storage-safety-guide", label: "Food Storage Safety Guide — chill what you pressure-cook" },
       ]}
       sources="Manufacturer safety guidance; USDA FSIS cooking temperatures; USDA FoodData Central values."
+      official={[
+        { label: "FoodSafety.gov safe cooking temperatures", href: "https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures", note: "temps pressure cooking must reach" },
+        { label: "USDA FSIS safe food handling", href: "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation", note: "handling basics for pressure meals" },
+      ]}
     >
       <p>
         A pressure cooker is a sealed pot that refuses to let steam escape, raising water&apos;s boiling point from

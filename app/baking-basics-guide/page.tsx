@@ -58,6 +58,10 @@ export default function Page() {
         { href: "/kitchen-tools-essentials", label: "Kitchen Tools Essentials — scales and pans" },
       ]}
       sources="USDA FoodData Central flour nutrient values; standard baking references."
+      official={[
+        { label: "FDA safe food handling", href: "https://www.fda.gov/food/buy-store-serve-safe-food", note: "buy, store and serve food safely" },
+        { label: "USDA FoodData Central", href: "https://fdc.nal.usda.gov", note: "flour and ingredient nutrient values" },
+      ]}
     >
       <p>
         Baking intimidates cooks who happily improvise dinner, because baking genuinely punishes improvisation — it is

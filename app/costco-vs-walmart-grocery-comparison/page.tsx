@@ -58,6 +58,10 @@ export default function Page() {
         { href: "/recipe-cost-calculator", label: "Recipe Cost Calculator — price your own plates" },
       ]}
       sources="USDA Thrifty and Low-Cost Food Plans; USDA FoodData Central price references; FoodSafety.gov storage guidance."
+      official={[
+        { label: "FoodSafety.gov keep food safe", href: "https://www.foodsafety.gov/keep-food-safe", note: "storage rules for bulk buys" },
+        { label: "USDA Thrifty Food Plan", href: "https://www.fns.usda.gov/cnpp/thrifty-food-plan", note: "benchmarks for comparing basket costs" },
+      ]}
     >
       <p>
         Every budget cook eventually faces the same fork in the road: the warehouse club with the $65 membership and

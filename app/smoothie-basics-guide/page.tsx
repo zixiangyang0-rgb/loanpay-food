@@ -58,6 +58,10 @@ export default function Page() {
         { href: "/meal-prep-for-beginners", label: "Meal Prep for Beginners — freezer packs Sunday" },
       ]}
       sources="USDA FoodData Central fruit, dairy and nut nutrient values."
+      official={[
+        { label: "FDA produce safety", href: "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely", note: "washing produce for blending" },
+        { label: "USDA FoodData Central", href: "https://fdc.nal.usda.gov", note: "fruit, dairy and nut nutrient values" },
+      ]}
     >
       <p>
         Great smoothies feel like a treat and behave like a meal, while bad ones feel like a chore and behave like

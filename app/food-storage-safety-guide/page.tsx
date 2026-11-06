@@ -58,6 +58,10 @@ export default function Page() {
         { href: "/pantry-staples-list", label: "Pantry Staples List — shelf-stable storage" },
       ]}
       sources="USDA FoodSafety.gov and FSIS cold-storage charts, danger-zone and thawing guidance."
+      official={[
+        { label: "FoodSafety.gov cold food storage charts", href: "https://www.foodsafety.gov/food-safety-charts/cold-food-storage-charts", note: "fridge and freezer timelines" },
+        { label: "USDA FSIS cold food storage charts", href: "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/cold-food-storage-charts", note: "FSIS storage limits by food" },
+      ]}
     >
       <p>
         Food storage safety is the least glamorous cooking skill and the one that prevents the most misery. Every year,
