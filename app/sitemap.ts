@@ -29,6 +29,7 @@ const SLUGS = [
   "/rice-cooker-guide",
   "/kitchen-tools-essentials",
   "/recipe-cost-calculator",
+  "/thanksgiving-leftovers-guide",
   "/about",
   "/contact",
   "/privacy-policy",
