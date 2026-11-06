@@ -35,19 +35,20 @@ export function ArticleShell({
         <Link href="/disclaimer">disclaimer</Link>.
       </div>
       {faqNote ? <p className="mt-4 text-sm italic" style={{ color: "#6f5f52" }}>{faqNote}</p> : null}
-      <div className="mag-card mt-8 p-6">
-        <h2 className="font-display text-xl font-bold">Keep reading in the Kitchen</h2>
-        <ul className="mt-3 space-y-2">
-          {related.map((r) => (
-            <li key={r.href}>
-              <Link className="toc-link font-semibold" href={r.href}>{r.label}</Link>
-            </li>
-          ))}
-          <li>
-            <Link className="toc-link font-semibold" href="/">← Back to the LoanPay Kitchen homepage</Link>
-          </li>
+      <nav aria-label="Related guides" className="mag-card mt-8 p-6">
+        <p className="text-sm font-semibold">Keep reading</p>
+        <ul className="mt-3 flex flex-col gap-2 text-sm leading-relaxed">
+          {related.map((r) => {
+            const [title, ...rest] = r.label.split(" — ");
+            return (
+              <li key={r.href}>
+                <Link className="toc-link font-semibold" href={r.href}>{title}</Link>
+                {rest.length > 0 ? ` — ${rest.join(" — ")}` : null}
+              </li>
+            );
+          })}
         </ul>
-      </div>
+      </nav>
       <p className="mt-6 text-xs" style={{ color: "#6f5f52" }}>Sources: {sources}</p>
     </div>
   );
