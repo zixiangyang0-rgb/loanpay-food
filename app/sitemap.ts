@@ -17,6 +17,8 @@ const SLUGS = [
   "/smoothie-basics-guide",
   "/salad-meal-prep-guide",
   "/budget-grocery-guide",
+  "/grocery-budget-calculator-family-of-4",
+  "/costco-vs-walmart-grocery-comparison",
   "/pantry-staples-list",
   "/food-storage-safety-guide",
   "/leftover-safety-guide",
